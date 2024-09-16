@@ -1,13 +1,11 @@
-function hello()
-  print('Hello')
+fonct = {name = 'Hayden'}
+
+function wedgie()
+  print('YANK THAT SHIT')
 end
 
-function test()
-  if hello() ~= 'Hello'
-    then print(1,3)
-    end
+if fonct.name == 'Hayden' then
+  wedgie()
+else
+  print("Not Fonct, do not wedgie")
 end
-
-test()
-hello()
-test()
